@@ -4,16 +4,19 @@ description: 'Create a bug report to the website'
 
 body:
   - type: input
+    id: problem
     attributes:
       label: Problem with this page
     validations:
       required: true
   - type: textarea
+    type: expected-behavior
     attributes:
       label: Expected behavior
     validations:
       required: true
   - type: textarea
+    id: actual-behavior
     attributes:
       label: Actual behavior
     validations:
