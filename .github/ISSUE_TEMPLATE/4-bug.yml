@@ -1,0 +1,24 @@
+name: '🐛 Bug report'
+labels: 'bug'
+description: 'Create a bug report to the website'
+
+body:
+  - type: input
+    attributes:
+      label: Problem with this page
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Possible solution
+      description: If you have suggestions on a fix for the bug, please describe it here.
