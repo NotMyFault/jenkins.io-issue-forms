@@ -10,7 +10,7 @@ body:
     validations:
       required: true
   - type: textarea
-    type: expected-behavior
+    id: expected-behavior
     attributes:
       label: Expected behavior
     validations:
