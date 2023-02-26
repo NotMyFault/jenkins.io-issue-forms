@@ -25,6 +25,9 @@ body:
     validations:
       required: true
   - type: textarea
+    id: possible-solution
     attributes:
       label: Possible solution
       description: If you have suggestions on a fix for the bug, please describe it here.
+    validations:
+      required: false
