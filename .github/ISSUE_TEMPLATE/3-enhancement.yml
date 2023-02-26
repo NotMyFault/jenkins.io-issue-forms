@@ -13,6 +13,7 @@ body:
     attributes:
       label: Links
       description: Link any related documentation pages and other materials.
-      placeholder: * Links 1
+      placeholder: |
+        * Links 1
     validations:
       required: false
